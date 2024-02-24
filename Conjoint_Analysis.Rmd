@@ -13,7 +13,7 @@ library(stringr)
 library(ggplot2)
 
 # Load the preferences data-sheet into a data-frame 
-conjoint_data <- read_excel("Adv Stats Prefs Updated.xlsx")
+conjoint_data <- read_excel("Preferences.xlsx")
 
 # Select only the columns of interest
 conjoint_data <- conjoint_data %>%
